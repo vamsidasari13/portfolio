@@ -1278,3 +1278,16 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* Override capitalization for contact info */
+.box p span,
+.box p {
+  text-transform: none !important;
+}
+
+/* Fix for Get in Touch form fields */
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  text-transform: none !important;
+}
